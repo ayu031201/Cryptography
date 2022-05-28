@@ -19,7 +19,7 @@ Implementation of Famous Cryptographic Techniques in C++
 
   => We choose Two keys "A" and "B" and we assign each letter of the message as the ASCII character os the number A * X + B where X is the ASCII number of that                character.
   
-**5 ⁑ RSA(Rivest–Shamir–Adleman) Cryptosystem**
+**5 ⁑ RSA (Rivest–Shamir–Adleman) Cryptosystem**
 
   => It is the most widely used Cryptosystem because of its safe and secure encryption.
   => It is a Public-Key Cryptosystem in which the encryption key is Public and does not matches with the Private-Key.
