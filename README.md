@@ -29,7 +29,7 @@ Implementation of Famous Cryptographic Techniques in C++
   
  There are no published methods to defeat the system if a large enough key is used.
    
-   **★ My Implementation :**
+   **⭐ My Implementation :**
    
    => RSA algorithm that we use is often slow because it does not directly uses the message that we have to encrypt.
    The Security of our RSA algorithm is somewhat depends on how large we choose the prime numbers, but i have choosed small prime numbers which is not very secure and    is easy to crack. Because the random prime numbers that rand() function generates are not completely random those are psuedo random prime numbers. It takes those      two prime numbers and an integer input as a message that we have to encrypt. Then we will generate a Public-Key using it and a Private-Key which is complementary to    the Public-Key and we can decrypt the cipher text using this Private-key. We take a character value and encrypt it using its ASCII value and show the encrypted        text then we calculate the Private-Key using Extended-Eculidean Algorithm and can decrypt the encrypted message to the original message. 
