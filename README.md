@@ -1,25 +1,25 @@
 # Cryptography
 Implementation of Famous Cryptographic Techniques in C++
 
-**1 ->Shift Cipher**
+**1 ⁑ Shift Cipher**
 
   => It is the most common encrypting techinique which involves replacing each letter in the message by a letter that is some fixed number of positions further along in      the alphabet.
   
-**2 -> Keyed Cipher**
+**2 ⁑ Keyed Cipher**
 
   => We choose a string as a KEY and for each character present in the we assign all 'A' as the First character of the Key, all 'B' as the Second character of the key        and so on until the character is over and the rest of the alphabets the characters that are left in sorted manner.
   
-**3 -> Keyless Cipher**
+**3 ⁑ Keyless Cipher**
 
   => As per the name this cipher dont have a *key* so we arrange our message into a table of column by column and then row by row. 
      And we take all of the row one's character first and concatenate them as a single string and we do the same with the column ones.
      Then our Encrypted message is the concatination of Row (First) and Column (Second) string.
      
-**4 -> Affine Cipher**
+**4 ⁑ Affine Cipher**
 
   => We choose Two keys "A" and "B" and we assign each letter of the message as the ASCII character os the number A * X + B where X is the ASCII number of that                character.
   
-**5 -> RSA(Rivest–Shamir–Adleman) Cryptosystem**
+**5 ⁑ RSA(Rivest–Shamir–Adleman) Cryptosystem**
 
   => It is the most widely used Cryptosystem because of its safe and secure encryption.
   => It is a Public-Key Cryptosystem in which the encryption key is Public and does not matches with the Private-Key.
