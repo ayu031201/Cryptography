@@ -13,7 +13,7 @@ Implementation of Famous Cryptographic Techniques in C++
 
   => As per the name this cipher dont have a *key* so we arrange our message into a table of column by column and then row by row. 
      And we take all of the row one's character first and concatenate them as a single string and we do the same with the column ones.
-     Then our Encrypted message is the concatination of Row (First) and Column (Second) string.
+     Then our Encrypted message is the concatenation of Row (First) and Column (Second) string.
      
 **★ Affine Cipher**
 
