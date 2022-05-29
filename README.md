@@ -22,9 +22,13 @@ Implementation of Famous Cryptographic Techniques in C++
 **🌟 RSA (Rivest–Shamir–Adleman) Cryptosystem**
 
   => It is the most widely used Cryptosystem because of its safe and secure encryption.
+  
   => It is a Public-Key Cryptosystem in which the encryption key is Public and does not matches with the Private-Key.
-  => In RSA a user creates and publishes a public key based on two large prime numbers, along with an auxiliary value. The prime numbers are kept secret. Messages can be      encrypted by anyone, via the public key, but can only be decoded by someone who knows those prime numbers.
+  
+  => In RSA a user creates and publishes a public key based on two large prime numbers, along with an auxiliary value. The prime numbers are kept secret. Messages can      be encrypted by anyone, via the public key, but can only be decoded by someone who knows those prime numbers.
+  
   => The security of RSA relies on the practical difficulty of factoring the product of two large prime numbers.
+  
   => RSA is used to transmit shared keys for symmetric-key cryptography, which are then used for bulk encryption–decryption.
   
  There are no published methods to defeat the system if a large enough key is used.
