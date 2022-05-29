@@ -25,7 +25,7 @@ Implementation of Famous Cryptographic Techniques in C++
   
   => It is a Public-Key Cryptosystem in which the encryption key is Public and does not matches with the Private-Key.
   
-  => In RSA a user creates and publishes a public key based on two large prime numbers, along with an auxiliary value. The prime numbers are kept secret. Messages can      be encrypted by anyone, via the public key, but can only be decoded by someone who knows those prime numbers.
+  => In RSA a user creates and publishes a public key based on two large prime numbers, along with an auxiliary value. The prime numbers are      kept secret. Messages can      be encrypted by anyone, via the public key, but can only be decoded by someone who knows those prime numbers.
   
   => The security of RSA relies on the practical difficulty of factoring the product of two large prime numbers.
   
